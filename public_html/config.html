@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>单选题</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="js/libs/jqueryui/css/base/jquery.ui.all.css"/>
+        <link rel="stylesheet" type="text/css" href="css/testsuite.css"/>
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/libs/jqueryui/jquery-ui.js"></script>
+        <script src="js/libs/json2.js"></script>
+        <script src="testsuite.js"></script>
+        <script src="config.js"></script>
+    </head>
+    <body>
+        <div>单选题</div>
+        <div id="left" style="float: left;width:100px;height: 600px;">
+            <select id="sel-item-index" size="20">
+            </select>
+        </div>
+        <div id="right"  style="float: left;width:600px;height: 600px;">
+            <div>
+                题干:
+                <input id="body"/>
+            </div>
+            <div>
+                选项1:
+                <input id="c1" class="choice-input"/>
+            </div>
+            <div>
+                选项2:
+                <input id="c2" class="choice-input"/>
+            </div>
+            <div>
+                选项3:
+                <input id="c3" class="choice-input"/>
+            </div>
+            <div>
+                选项4:
+                <input id="c4" class="choice-input"/>
+            </div>
+            <div>
+                选项5:
+                <input id="c5" class="choice-input"/>
+            </div>
+            <div>
+                <button id="btn-save">保存</button>
+            </div>
+        </div>
+    </body>
+</html>
