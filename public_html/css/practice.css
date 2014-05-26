@@ -1,0 +1,83 @@
+.single-choice-body{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+#mitems{
+    width: 500px;
+    height: 00px;
+    color:darkmagenta;
+    margin:20px;
+
+}
+
+#bar{
+    color: #cd0a0a;
+    
+}
+
+#btn-prev{
+    width: 75px;
+    height: 35px;
+    color: purple;
+    font-weight: bolder;
+    background-color: threedface;
+   
+
+}
+#btn-prev:hover{
+    color: magenta;
+    
+}
+#btn-next:hover{
+    color: magenta;
+}
+#btn-next{
+    width: 75px;
+    height: 35px;  
+    color: purple;
+    font-weight: bolder;
+    margin:30px;
+    background-color: threedface;
+}
+
+#zaixian{
+    margin:20px;  
+    color: blueviolet;
+    font-family: 华文新魏;
+    font-size: 50px;
+    text-decoration: blink;
+    font-weight:bolder;
+    text-align: center;
+}
+#whole{
+    width:700px;
+    height:400px;
+    color: tomato;
+    border:3px dotted;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#one-item{
+    color: purple;
+    margin-left: 260px;
+    width:700px;
+}
+#item-count{
+    margin-left: 100px;
+    color: purple;
+    font-weight: bold;
+}
+#shuiping{
+    color: pink;
+}
+
+
+
+
+

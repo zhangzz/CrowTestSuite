@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>test</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="js/libs/jqueryui/css/base/jquery.ui.all.css"/>
+        <link rel="stylesheet" type="text/css" href="css/testsuite.css"/>
+        <link rel="stylesheet" type="text/css" href="css/test.css"/>
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/libs/jqueryui/jquery-ui.js"></script>
+        <script src="js/libs/json2.js"></script>
+
+        <script src="testsuite.js"></script>
+        <script src="test.js"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        <div id = 'whole'>
+            <div id = 'div-title'></div>
+            <div id = 'div-tip'>
+                <p>温馨提示：一旦开始答题，将开始计时，每组题时间为20分钟，时间一到，网页将会自动提交答案。
+                    提交答案后，系统将会给出做题的反馈，其中,蓝色的题表示做对的题，红色的题表示做错的题，绿色的题
+                    表示未做的题。
+                </p>
+            </div>
+            <div id = 'div-start'>
+                <button id = 'start'>开始答题</button>
+            </div>
+            <div id = 'panel'></div>
+            <div id = 'feedback'></div>
+        </div>   
     </body>
 </html>

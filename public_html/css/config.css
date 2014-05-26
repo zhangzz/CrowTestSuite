@@ -1,0 +1,63 @@
+body{
+    background-image: url(../image/1.jpg);
+}
+#content
+{
+    margin: auto;
+    width: 1000px;
+    background-color: #ffedf6;
+    padding: 10px;
+    border-radius:10px;
+    height: 700px;
+
+}
+#main
+{
+    margin: 10px auto;
+
+    height: 600px;
+}
+#top{
+    background-color: #c8ccff;
+    text-align: left;
+    padding: 30px 50px 10px 50px;
+    margin: auto;
+    text-indent: 10px;
+    font-family: 迷你简硬笔楷书;
+    font-size: 40px;
+    font-weight: bold;
+}
+#left{
+    background-color: #e3f4ff;
+    width: 160px;
+    height: 490px;
+    float:left;
+    padding: 50px 40px;
+    font-family:迷你简硬笔楷书,幼圆;
+
+}
+#right
+{
+    width: 610px;
+    height: 510px;
+    margin-left: 250px;
+    background-color: #e3f4ff;
+    padding:40px 70px;
+}
+#sel-item-index{
+    width: 50px;
+
+}
+#btn
+{
+    float:right;
+}
+input
+{
+    width: 350px;
+}
+
+#tip{
+    color: red;
+    font-weight: bold;
+}

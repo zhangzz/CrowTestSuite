@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="js/libs/jqueryui/css/base/jquery.ui.all.css"/>
-        <link rel="stylesheet" type="text/css" href="css/testsuite.css"/>
+
+        <link rel="stylesheet" type="text/css" href="css/config.css"/>
         <script src="js/libs/jquery/jquery.js"></script>
         <script src="js/libs/jqueryui/jquery-ui.js"></script>
         <script src="js/libs/json2.js"></script>
@@ -13,39 +14,32 @@
         <script src="config.js"></script>
     </head>
     <body>
-        <div>单选题</div>
-        <div id="left" style="float: left;width:100px;height: 600px;">
+        <div id="content">
+        <div id="top">单选题配置</div>
+        <div id="main">
+        <div id="left" >
             <select id="sel-item-index" size="20">
             </select>
+           <div id="btn">
+            <button id="btn-addquestion">添加</button><br/>
+            <button id="btn-deletequestion">删除</button>
+            </div>
         </div>
-        <div id="right"  style="float: left;width:600px;height: 600px;">
+        <div id="right">
+            <div><button id="btn-saveall">保存所有</button></div><br/><br/>
+            
             <div>
-                题干:
+                题干&nbsp;:
                 <input id="body"/>
-            </div>
+            </div><br/>
+            <div id="choices"></div>
+            <div id="tip">添加选项的形式为:a#b#c(其中a为选项；b为正确与否，正确为1，错误为0；c为反馈信息。)</div>
             <div>
-                选项1:
-                <input id="c1" class="choice-input"/>
+                <button id="btn-additem">添加选项</button>
+                 <button id="btn-save">保存</button>
             </div>
-            <div>
-                选项2:
-                <input id="c2" class="choice-input"/>
             </div>
-            <div>
-                选项3:
-                <input id="c3" class="choice-input"/>
-            </div>
-            <div>
-                选项4:
-                <input id="c4" class="choice-input"/>
-            </div>
-            <div>
-                选项5:
-                <input id="c5" class="choice-input"/>
-            </div>
-            <div>
-                <button id="btn-save">保存</button>
-            </div>
+        </div>
         </div>
     </body>
 </html>
